@@ -7,7 +7,6 @@
 	<artifactId>hibernate-fetch-test</artifactId>
 	<version>1-SNAPSHOT</version>
 
-	<packaging>war</packaging>
 	<name>Hibernate Fetch Test</name>
 	<description>Test Hibernate fetch join with filtered collections</description>
 
@@ -16,6 +15,17 @@
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>4.1.8.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.2.9</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
 		</dependency>
 	</dependencies>
 
